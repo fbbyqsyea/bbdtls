@@ -23,6 +23,10 @@ keywords = ["daily", "tools"]
 Homepage = "https://github.com/fbbyqsyea/daily-tools"
 Repository = "https://github.com/fbbyqsyea/daily-tools"
 
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov"]
+test = ["pytest", "pytest-cov"]
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
